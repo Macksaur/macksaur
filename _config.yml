@@ -1,0 +1,32 @@
+domain: mack.soot.co
+#url: https://macksaur.github.io
+url: https://mack.soot.co
+baseurl: /
+
+title: mack.soot.co
+author:
+  name: Mack
+  twitter: macksaur
+  url: https://mack.soot.co
+#email: email
+description: >
+  This is a page. This is a description.
+
+show_excerpts: true
+
+minima:
+  skin: dark
+  social_links:
+    twitter: macksaur
+    github: macksaur
+
+header_pages:
+  - index.md
+  - posts.md
+
+#theme: minima
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
